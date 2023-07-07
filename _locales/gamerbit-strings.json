@@ -10,8 +10,8 @@
   "GamerBitPin.P2|block": "P2 (D-PAD right)",
   "GamerBitPin.P5|block": "P5 (A button)",
   "GamerBitPin.P8|block": "P8 (D-PAD down)",
-  "gamerbit.isPressed|block": "gamer:bit %button|is pressed",
-  "gamerbit.onEvent|block": "gamer:bit on %button|%event",
-  "gamerbit|block": "gamerbit",
-  "{id:category}Gamerbit": "Gamerbit"
+  "gamerbit.isPressed|block": "Contorller:bit %button|is pressed",
+  "gamerbit.onEvent|block": "Controller:bit on %button|%event",
+  "gamerbit|block": "Controller:bit",
+  "{id:category}Gamerbit": "Controller:bit"
 }
