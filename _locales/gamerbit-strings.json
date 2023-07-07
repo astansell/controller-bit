@@ -10,8 +10,8 @@
   "GamerBitPin.P2|block": "P2 (D-PAD right)",
   "GamerBitPin.P5|block": "P5 (A button)",
   "GamerBitPin.P8|block": "P8 (D-PAD down)",
-  "gamerbit.isPressed|block": "PLTW Contorller %button|is pressed",
-  "gamerbit.onEvent|block": "PLTW Controller on %button|%event",
-  "gamerbit|block": "PLTW Controller",
+  "PLTWController.isPressed|block": "PLTW Contorller %button|is pressed",
+  "PLTWController.onEvent|block": "PLTW Controller on %button|%event",
+  "PLTWController|block": "PLTW Controller",
   "{id:category}PLTWController": "PLTW Controller"
 }
