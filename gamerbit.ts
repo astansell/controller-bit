@@ -38,7 +38,7 @@ enum GamerBitEvent {
  * Functions to operate the SparkFun gamer:bit
  */
 //% color=#f44242 icon="\uf11b"
-namespace gamerbit {
+namespace PLTWController {
 	/**
 	 * 
 	 */
