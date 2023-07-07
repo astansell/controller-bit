@@ -52,7 +52,7 @@ namespace PLTWController {
 	 * @param button the pin that acts as a button
 	 */
     //% weight=89
-    //% blockId=gamerbit_ispressed block="gamer:bit %button|is pressed"
+    //% blockId=gamerbit_ispressed block="PLTW Controller %button|is pressed"
     //% button.fieldEditor="gridpicker" button.fieldOptions.columns=3
     export function isPressed(button: GamerBitPin): boolean {
         const pin = <DigitalPin><number>button;
@@ -64,7 +64,7 @@ namespace PLTWController {
 	 * Registers code to run when a gamer:bit event is detected.
 	 */
     //% weight=90
-    //% blockId=gamerbit_onevent block="gamer:bit on %button|%event"
+    //% blockId=gamerbit_onevent block="PLTW Controller on %button|%event"
     //% button.fieldEditor="gridpicker" button.fieldOptions.columns=3
     //% event.fieldEditor="gridpicker" event.fieldOptions.columns=3
     export function onEvent(button: GamerBitPin, event: GamerBitEvent, handler: Action) {
