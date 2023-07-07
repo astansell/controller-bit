@@ -42,7 +42,7 @@ namespace gamerbit {
 	/**
 	 * 
 	 */
-    //% shim=gamerbit::init
+    //% shim=PLTW Controller::init
     function init(): void {
         return;
     }
